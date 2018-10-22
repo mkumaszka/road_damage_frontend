@@ -1,0 +1,21 @@
+#file{
+    display:none;
+    visibility:hidden;
+}
+
+#file + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+}
+
+label {
+    margin-top: 50px;
+    width: 200px;
+}
+
+#file:focus + label,
+#file + label:hover {
+    box-shadow: 0 2px 3px hsla(0, 0, 0, 0.7);
+}

@@ -1,0 +1,19 @@
+tr {
+width: 70%;
+display: inline-table;
+table-layout: fixed;
+}
+    
+table{
+    /* height:300px;               */
+    display: -moz-groupbox;    
+}
+tbody{
+    overflow-y: scroll;           
+    width: 70%;
+    position: absolute;
+}
+
+.damage_id{
+    width: 100px;
+}
